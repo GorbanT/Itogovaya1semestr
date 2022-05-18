@@ -1,11 +1,11 @@
-;  
+;
 #define   Name       "BALLS"
 ;  
-#define   Version    "1.0.0"
+#define   Version    "1.1.1"
 ; -
-#define   Publisher  "Maxim Madudenkov"
+#define   Publisher  "Timur Gorban"
 ;   
-#define   URL        "https://vk.com/madudenkov"
+#define   URL        "https://vk.com/hoposhiyparen"
 ;   
 #define   ExeName    "Balls.exe"
 
@@ -32,11 +32,11 @@ DefaultDirName={pf}\{#Name}
 DefaultGroupName={#Name}
 
 ; ,     setup    
-OutputDir=C:\Users\User\Загрузки
+OutputDir=C:\Users\Admin\Desktop\1\Itogovaya1semestr\installer
 OutputBaseFileName=Balls
 
 ;  
-SetupIconFile=C:\Users\User\Downloads\PMIeg1Z_v3k.ico
+SetupIconFile=C:\Users\Admin\Desktop\AFANIM.ico
 
 ;  
 Compression=lzma
@@ -62,12 +62,12 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 [Files]
 
 ;  
-Source: "C:\Users\User\Desktop\lastLab\Release\BALLS.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Admin\Desktop\itogovaya\Release\BALLS.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 ;  
 
 ; VS Redistributable package
-Source: "C:\Users\User\Desktop\прога\VC_redist.x64.exe"; DestDir: "{tmp}"; Flags: deleteafterinstall
+Source: "C:\Users\Admin\Desktop\1\Itogovaya1semestr\installer\VC_redist.x64.exe"; DestDir: "{tmp}"; Flags: deleteafterinstall
 ;------------------------------------------------------------------------------
 ;    ,     
 ;------------------------------------------------------------------------------ 
